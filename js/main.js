@@ -16,10 +16,12 @@ let darkmode=false;
         if (transformado) {
           info1.style.transform = 'translateY(100%)' 
           contenidojudy.style.filter = 'brightness(100%)' 
+          judy.classList.remove("hoveroff")
           transformado = false; 
         } else {
           info1.style.transform = 'translateY(0)'
           contenidojudy.style.filter='brightness(40%)'
+          judy.classList.add("hoveroff")
           transformado = true; 
         }
       })
@@ -28,10 +30,12 @@ let darkmode=false;
         if (transformado) {
           info2.style.transform = 'translateY(100%)'
           contenidochoco.style.filter = 'brightness(100%)' 
+          choco.classList.remove("hoveroff")
           transformado = false; 
         } else {
           info2.style.transform = 'translateY(0)'
           contenidochoco.style.filter='brightness(40%)'
+          choco.classList.add("hoveroff")
           transformado = true; 
         }
       })
