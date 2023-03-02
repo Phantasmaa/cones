@@ -17,7 +17,7 @@ html, body{
     background-color: rgba(255, 255, 255, 0.973);
     display: flex;
     width: auto;
-    height: 9%;
+    height: 7%;
     align-items: center;
     box-shadow: 0px 0px 8px rgb(3, 3, 3);
     
@@ -99,7 +99,7 @@ html, body{
 
   #main-container{
     display: flex;
-    height: 88%;
+    height: 93%;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
